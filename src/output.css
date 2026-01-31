@@ -201,9 +201,6 @@
   .table {
     display: table;
   }
-  .w-68 {
-    width: calc(var(--spacing) * 68);
-  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -219,12 +216,6 @@
   .gap-x-2 {
     column-gap: calc(var(--spacing) * 2);
   }
-  .gap-x-10 {
-    column-gap: calc(var(--spacing) * 10);
-  }
-  .gap-x-25 {
-    column-gap: calc(var(--spacing) * 25);
-  }
   .gap-x-30 {
     column-gap: calc(var(--spacing) * 30);
   }
@@ -238,44 +229,14 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .bg-\[url\(\'\/images\/bannerBggs\.png\'\)\] {
-    background-image: url('/images/bannerBggs.png');
-  }
-  .bg-cover {
-    background-size: cover;
-  }
-  .bg-center {
-    background-position: center;
-  }
-  .bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .py-5 {
-    padding-block: calc(var(--spacing) * 5);
-  }
-  .py-10 {
-    padding-block: calc(var(--spacing) * 10);
-  }
-  .py-12 {
-    padding-block: calc(var(--spacing) * 12);
-  }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
   }
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
   }
-  .pt-10 {
-    padding-top: calc(var(--spacing) * 10);
-  }
-  .pt-42 {
-    padding-top: calc(var(--spacing) * 42);
-  }
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
-  }
-  .pb-20 {
-    padding-bottom: calc(var(--spacing) * 20);
   }
   .text-\[\#4BE5CA\] {
     color: #4BE5CA;
@@ -317,7 +278,7 @@
     }
   }
 }
-.menuI {
+.menuIcon {
   margin-left: calc(var(--spacing) * 5.5);
   color: #2AAA94;
 }
@@ -362,6 +323,14 @@
     }
   }
 }
+.banner {
+  background-image: url('/images/bannerBggs.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: calc(var(--spacing) * 42);
+  padding-bottom: calc(var(--spacing) * 20);
+}
 .bannerLeft {
   padding-bottom: calc(var(--spacing) * 25);
 }
@@ -377,6 +346,7 @@
 }
 .bannerLefth1 {
   width: calc(var(--spacing) * 167.5);
+  padding-top: calc(var(--spacing) * 10);
   font-family: var(--font-Rowdies);
   font-size: 80px;
   --tw-leading: calc(var(--spacing) * 22.5);
@@ -471,6 +441,7 @@
   color: var(--color-white);
 }
 .bannerRightp {
+  width: calc(var(--spacing) * 68);
   padding-top: calc(var(--spacing) * 2);
   font-family: var(--font-Saira);
   font-size: var(--text-base);
@@ -499,6 +470,7 @@
   --tw-gradient-stops: var(--tw-gradient-via-stops);
   --tw-gradient-to: #2a88d9;
   --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  padding-block: calc(var(--spacing) * 12);
 }
 @property --tw-border-style {
   syntax: "*";

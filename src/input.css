@@ -30,7 +30,7 @@
     @apply cursor-pointer text-[#1B2336] font-Saira text-[20px] font-medium hover:text-[#2AAA94] duration-300
 }
 
-.menuI{
+.menuIcon{
     @apply ml-5.5 text-[#2AAA94]
 }
 
@@ -39,6 +39,10 @@
 }
 /* header part */
 /* banner part */
+.banner{
+    @apply bg-[url('/images/bannerBggs.png')] pt-42 pb-20 bg-center bg-cover bg-no-repeat
+}
+
 .bannerLeft{
     @apply pb-25
 }
@@ -48,7 +52,7 @@
 }
 
 .bannerLefth1{
-    @apply text-white font-bold font-Rowdies text-[80px] leading-22.5 w-167.5
+    @apply text-white font-bold font-Rowdies text-[80px] leading-22.5 w-167.5 pt-10
 }
 
 .bannerBtn{
@@ -79,7 +83,7 @@
     @apply text-white font-Rowdies text-base
 }
 .bannerRightp{
-    @apply text-white font-Saira text-base pt-2
+    @apply text-white font-Saira text-base pt-2 w-68
 }
 
 .rating{
@@ -92,6 +96,6 @@
 /* banner part */
 /* ads aprt */
 .adsPart{
-    @apply bg-linear-to-r from-[#3249cf] via-[#7653f5] to-[#2a88d9]
+    @apply bg-linear-to-r from-[#3249cf] via-[#7653f5] to-[#2a88d9] py-12
 }
 /* ads aprt */
