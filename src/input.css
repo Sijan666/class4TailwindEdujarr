@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme {
+    --font-Saira: "Saira", sans-serif; 
+    --font-Rowdies: "Rowdies", sans-serif; 
+    --font-Inter: "Inter", sans-serif; 
+    --shadow-custom: 0px 5px 0px 0px rgba(0, 0, 0, 0.16);
+}
+
+/* common css */
+.container{
+    @apply max-w-406.5 mx-auto
+}
+
+.flex{
+    @apply flex items-center
+}
+
+.logo{
+    @apply cursor-pointer
+}
+
+.icon{
+    @apply cursor-pointer
+}
+/* common css */
+
+/* header part */
+.limenu{
+    @apply cursor-pointer text-[#1B2336] font-Saira text-[20px] font-medium hover:text-[#2AAA94] duration-300
+}
+
+.menuI{
+    @apply ml-5.5 text-[#2AAA94]
+}
+
+.buttonHeader{
+    @apply text-[#4A4A4A] font-Saira text-[20px] font-medium px-8.5 py-4.5 hover:bg-blue-500 rounded-[10px] hover:text-white duration-300 underline hover:no-underline cursor-pointer hover:bg-linear-to-r from-[#083F9B] to-[#7F56D9]
+}
+/* header part */
+/* banner part */
+.bannerLeft{
+    @apply pb-25
+}
+
+.bannerLeftp{
+    @apply text-white font-semibold text-[18px] tracking-[3px] font-Saira uppercase
+}
+
+.bannerLefth1{
+    @apply text-white font-bold font-Rowdies text-[80px] leading-22.5 w-167.5
+}
+
+.bannerBtn{
+    @apply pt-10
+}
+
+.bannerButton{
+    @apply text-white text-[18px] font-medium font-Saira hover:font-semibold px-7.5 py-4.5 hover:border-2 hover:border-white rounded-[10px] border-2 border-transparent duration-300 cursor-pointer
+}
+
+.bannerSearchbar{
+    @apply pt-15 relative
+}
+
+.bannerInput{
+    @apply flex py-3.75 px-8.75 bg-white w-122.25 rounded-[7px] text-[#4F547B] text-base font-Saira outline-none relative
+}
+
+.bannerInputBtn{
+    @apply px-7.5 py-2.5 bg-linear-to-r from-[#3023B2] to-[#7F56D9] rounded-[10px] absolute bottom-1.5 right-48 text-white text-[15px] font-Inter cursor-pointer
+}
+
+.bannerRight{
+    @apply pr-130 pb-112
+}
+
+.bannerRighth4{
+    @apply text-white font-Rowdies text-base
+}
+.bannerRightp{
+    @apply text-white font-Saira text-base pt-2
+}
+
+.rating{
+    @apply text-[#5AB48E] text-[12px] font-Inter font-bold
+}
+
+.starIcon{
+    @apply text-[#81C7A2]
+}
+/* banner part */
+/* ads aprt */
+.adsPart{
+    @apply bg-linear-to-r from-[#3249cf] via-[#7653f5] to-[#2a88d9]
+}
+/* ads aprt */
